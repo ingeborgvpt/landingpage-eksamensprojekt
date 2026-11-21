@@ -1,0 +1,621 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h2 { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size:65px;
+}
+
+h3 { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+b {
+    font-weight:800;
+}
+
+/* Header */
+
+.body {
+    padding-left: 15px;
+}
+
+.text_header {
+    padding: 65px;
+}
+
+.header {
+   background-image: url(../img/heropicgradient.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 65px;
+}   
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#tools1,
+#tool2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;  
+}
+
+#tools img {
+    width: 40px;
+    height: 40px;
+}
+
+#menu {
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
+    display: flex;
+}
+
+#lumina_audio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #f3f2f2;
+    display: flex;
+    margin-top: 0px;
+}
+ 
+#loop {
+    display: inline;
+}
+
+
+#lumina_one {
+    padding-top: 10%;
+    width: 15em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+#h1_1{
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 110%;
+    font-size:50px;
+    color: #fffdfd;
+}
+
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    font-weight:lighter;
+    color: #fefefe;
+}
+
+#h1_2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:50px;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+.header button {
+    color: rgb(15, 8, 8);
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+    height: 50px;
+    width: 240px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+/*under hero*/
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background: #d9c8b8;
+    background: linear-gradient(180deg,rgba(217, 200, 184, 0.93) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.benefit-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.benefit h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.benefit p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+/*body*/
+
+#tone {
+    height: 500px;
+}
+
+/*Light setion*/
+
+#light {
+    background-color: #EDE7E0;
+    height: auto;
+    padding: 65px;
+}
+
+#light h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size:65px;
+}
+
+#light h1 b {
+    font-weight: 700;
+}
+
+#light p {
+    color: #1b1915;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size:medium;
+    width: 90%;
+}
+
+.light_column {
+    display: flex;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.light_row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.party_box {
+    position: relative;
+    flex: 1;
+    display: flex;
+} 
+
+.chill_box {
+    position: relative;
+    flex: 1;
+    display: flex;
+}
+
+.chill_img {
+    width: 100%;
+    height: 100%;
+}
+
+.light_row img {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.light_overlay {
+    position: absolute;
+}
+
+.light_chill_img, .light_party_img, .light_sunset_img {
+    border-radius: 30px;
+}
+
+
+/*App section*/
+
+#app {
+    height: 757px;
+    background-image: url(../img/try_our_app_1.jpg);
+    padding: 65px;
+}
+
+#app h1 {
+    /* padding: 0 0 0 65px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size:65px;
+}
+
+#app h1 b {
+    font-weight: 700;
+}
+
+#app p {
+    color: #1b1915;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size:medium;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+#app_knapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+
+.app_downloads {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#app_knapper button {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border-width: 0px;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+
+/*Social */
+
+#social {
+    height: auto;
+    background-color: #ede7e0;
+    padding: 65px 0 65px 65px;
+}
+
+#social h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size:65px;
+}
+
+#social h1 b {
+    font-weight: 700;
+}
+
+#social h3 {
+    color: #1b1915;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+#social p {
+    color: #1b1915;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size:medium;
+    width: 90%;
+}
+
+#social p b {
+    font-weight: 700;
+}
+
+.sound_row {
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.sound_column {
+    width: 450px;
+    margin-top: 40px;
+    flex: 0 0 450px;
+    margin-right: 15px;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 100;
+}
+
+.sound_images {
+    width: 100%;
+    max-width: 450px;
+    aspect-ratio: 450 / 552;
+    border-radius:4%;
+
+}
+
+.sound_p_color i {
+    color:#4F4B42
+}
+
+
+/*footer*/
+
+footer  {
+    background-color: #4F4B42;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    
+}
+
+  .column {
+    float: left;
+    padding: 50px 50px;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+    color: #cebbad;
+    line-height: 300%;
+    width: 25%;
+  }
+
+  .column h3 {
+    font-size: large;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    content: "";
+    clear: both;
+  }
+
+
+    .copyright {
+    position: relative;
+    color: #EBD5BF;
+    bottom: 5px;  
+    left: 3%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+/*Find your tone styling*/
+    
+#tone {
+    padding: 0px 65px; 
+    margin-bottom: 10px;
+    height: 100%;/*denne sections padding - der er tilføjet lidt mere ift. højde*/
+}
+
+.thumbnails {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -30px;
+    justify-content: center;
+}
+
+.thumbnails img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #8a857d;
+    border-radius: 6px;
+}
+
+.thumbnails button img:hover { /*giver en opacity til thumbnailen når du fører musen over (så du ved, hvilken du er ved at klikke på udover via cursor pointeren*/
+    opacity: 0.7;
+}
+
+.thumbnails button { /*reset af knappens udseende*/
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.gallery-arrow { /*tilføjer en specifik styling kun til vores pile i galleriet */
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr; /*fordeling af hvor meget plads de to grids optager*/
+    gap: 40px;
+    align-items: stretch;
+
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 0;
+    min-height: 100%;
+}
+
+
+.product-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+/*knapper til produktets farve + styling deraf*/
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+.colors button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #8a857d;
+    margin-top: -5px;
+}
+
+.colors button:hover,
+.colors button.active {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #8a857d;
+}
+
+.dusty-rose {
+    background-color: #d8a0a0;
+}
+
+.sage-green {
+    background-color: #8a987c;
+}
+
+.moonlight-white {
+    background-color: #f2eee5;
+}
+
+.lavender-mist {
+    background-color: #c8bdd5;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.purchase p {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-family: montserrat;
+}
+
+.purchase button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*styling af details / summary */
+.product-details {
+    border-top: 1px solid #8c8984;
+    font-family: montserrat;
+    margin-top: 20px;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.product-details details {
+    border-bottom: 1px solid #8c8984;
+}
+
+.product-details summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.product-details summary::-webkit-details-marker {
+    display: none; /* fjerner den normale detail-marker*/
+}
+
+.product-details summary::after {
+    content: "›"; /* får pilen til at vende ud ad når summary er lukket*/
+    font-size: 25px;
+    transition: transform 0.2s ease;
+}
+.product-details details[open] summary::after {
+    transform: rotate(90deg); /* får pilen til at vende ned ad når summary er åben*/
+}
+
+.product-details details p { /*styler kun paragraffen inde i details */
+    padding-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    background: #a6907b;
+    display: flex;
+    gap: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    padding: 0 65px; 
+    z-index: 1;
+}
+
+ul.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
